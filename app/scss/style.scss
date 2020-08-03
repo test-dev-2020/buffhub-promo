@@ -381,9 +381,6 @@ svg {
 
 .mb-fe {
   font-size: 2.5rem;
-  a {
-    color: green !important;
-  }
 }
 
 .mb-se {
@@ -403,7 +400,7 @@ svg {
 
 /* Media */
 
-@media only screen and (max-width: 1400px) {
+@media (max-width: 1400px) {
   .overlay {
     position: absolute;
     left: 0;
@@ -458,9 +455,9 @@ svg {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
 }
-@media only screen and (max-width: 991px) {
+@media (max-width: 991px) {
   .overlay {
     display: none;
   }
@@ -540,21 +537,26 @@ svg {
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media (max-width: 600px) {
+  .mb-grad {
+    max-width: 570px;
+    width: 100%;
+  }
+  .mb {
+    padding: 1rem 2rem;
+  }
+  .md-col {
+    margin: 0;
+  }
 }
 
-@media only screen and (max-width: 520px) {
+@media (max-width: 520px) {
   .modal-s {
     width: calc(100vw - 20px);
   }
 }
-
-@media only screen and (max-width: 400px) {
-  .md-col {
-    padding: 0 1.5rem;
-  }
-
-  .mb-grad {
-    width: 100%;
+@media (max-width: 420px) {
+  .mb {
+    padding: 1rem;
   }
 }
